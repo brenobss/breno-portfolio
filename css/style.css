@@ -124,9 +124,9 @@ main {
 }
 
 .avatar {
-    width: 100px;
-    height: 100px;
-    border-radius: 93px;
+    width: 250px;
+    height: 250px;
+    border-radius: 150px;
 }
 
 .hello {
@@ -238,6 +238,7 @@ main {
         width: 60vw;
         height: 40vh;
         border-radius: 12px;
+        background-image: url('./images/chessmini.png');
     }
 
     .imagem-desktop {
