@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     font-family: 'Be Vietnam Pro', sans-serif;
+    text-decoration: none;
 }
 
 html {
@@ -108,7 +109,10 @@ label:active:after {
 }
 
 .secoes:hover {
-    opacity: 0.7;
+    background: var(--cor-titulo);
+    color: var(--cor-cabecalho);
+    border-radius: 15px;
+    padding: 0.4em;
 }
 
 main {
@@ -159,8 +163,8 @@ main {
 }
 
 .imagem {
-    width: 60vw;
-    height: 40vh;
+    width: 30vw;
+    height: 50vh;
     border-radius: 12px;
 }
 
@@ -179,7 +183,7 @@ main {
 }
 
 .botao {
-    padding: 1em 2em;
+    padding: 1em;
     border: 1px solid var(--cor-texto);
     border-radius: 44.5px;
     background: var(--cor-cabecalho);
